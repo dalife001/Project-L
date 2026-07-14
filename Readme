@@ -1,3 +1,42 @@
-# This is small LLm and its the start for everything
+# Project L
 
-## everything was written in python and its gonna be builded 
+Project L is an early-stage Python project focused on building a small language model and the supporting code around it.
+
+## Current Workspace Layout
+
+```text
+Project L/
+├── Readme
+├── structure.md
+├── config/
+├── Controllers/
+├── Data/
+├── main/
+├── Messages/
+├── new data/
+├── old data/
+├── Tokenziner/
+│   └── T.ipynb
+└── training/
+```
+
+## Folder Overview
+
+- `config/` stores configuration files and application settings.
+- `Controllers/` contains action handlers or coordination logic.
+- `Data/` is used for datasets, persistence helpers, and stored artifacts.
+- `main/` contains the main application logic and entry points.
+- `Messages/` stores message templates, prompts, and response text.
+- `new data/` is intended for newly collected or processed data.
+- `old data/` is intended for archived or legacy data.
+- `Tokenziner/` contains tokenizer experiments and notebook-based development.
+- `training/` contains training scripts, experiments, and model resources.
+
+## Notes
+
+- The project is still in a very early stage.
+- Most folders are currently empty.
+- The primary notebook in the workspace is `Tokenziner/T.ipynb`.
+- Update this file as the project structure grows.
+
+
